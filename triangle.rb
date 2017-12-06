@@ -14,7 +14,16 @@
 #   about_triangle_project_2.rb
 #
 def triangle(a, b, c)
-	if (a==b) && (b==c)
+
+	side1, side2, side3 = [a, b, c].sort
+
+	if [a, b, c].include?0
+		raise TriangleError, "Side Can't be ZERO!"
+	elsif [a, b, c].any?(&:negative?)
+		raise TriangleError, "Side Can't be NEGATIVE!"
+	elsif side1 + side2 <= side3
+		raise TriangleError, "Two sides of a triangle should add up to more than the third side."
+	elsif (a==b) && (b==c)
 		:equilateral 
 	elsif ([a,b].include?c) || ([a,c].include?b)
 		:isosceles 
