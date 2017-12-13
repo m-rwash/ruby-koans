@@ -1,3 +1,6 @@
+#### My journy to enlightenment with Ruby Koans EdgeCase
+_________________________________________________________________________________
+
 = Neo Ruby Koans
 
 The Ruby Koans walk you along the path to enlightenment in order to learn Ruby.
