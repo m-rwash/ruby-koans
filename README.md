@@ -44,7 +44,7 @@ If you don't have +rake+ installed, just run <code>gem install rake</code>
 Any response for Ruby with a version number greater than 1.8 is fine (should be
 around 1.8.6 or more). Any version of +rake+ will do.
 
-== Generating the Koans
+### Generating the Koans
 
 A fresh checkout will not include the koans, you will need to generate
 them.
@@ -55,7 +55,7 @@ If you need to regenerate the koans, thus wiping your current `koans`,
 
     [ruby_koans] $ rake regen                     # regenerates the koans directory, wiping the original
 
-== The Path To Enlightenment
+#### The Path To Enlightenment
 
 You can run the tests through +rake+ or by calling the file itself (+rake+ is the
 recommended way to run them as we might build more functionality into this task).
@@ -70,7 +70,7 @@ Windows is the same thing
     c:\ruby_koans\rake                             # runs the default target :walk_the_path
     c:\ruby_koans\ruby path_to_enlightenment.rb    # simply call the file directly
 
-=== Red, Green, Refactor
+### Red, Green, Refactor
 
 In test-driven development the mantra has always been <em>red, green, refactor</em>.
 Write a failing test and run it (<em>red</em>), make the test pass (<em>green</em>),
@@ -127,7 +127,7 @@ In this case the goal is for you to see that if you pass a value to the +assert+
 method, it will either ensure it is +true+ and continue on, or fail if
 the statement is +false+.
 
-=== Running the Koans automatically
+### Running the Koans automatically
 
 <em>This section is optional.</em>
 
