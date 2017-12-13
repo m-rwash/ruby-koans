@@ -1,4 +1,4 @@
-#### My journy to enlightenment with Ruby Koans EdgeCase
+##### My journy to enlightenment with Ruby Koans EdgeCase!
 _________________________________________________________________________________
 
 = Neo Ruby Koans
